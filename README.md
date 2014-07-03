@@ -1,4 +1,4 @@
-B2G_Gaia_Profile
+Gaia-Profile
 ================
 
 The profile data for data migration testing
