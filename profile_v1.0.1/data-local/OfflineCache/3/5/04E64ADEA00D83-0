@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html manifest="/manifest.appcache?repo=fireplace">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <title>Firefox Marketplace</title>
+    <meta property="og:title" content="Firefox Marketplace">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://marketplace.cdn.mozilla.net/media/fireplace/img/logos/128.png?b=1391543187889">
+    <meta name="description" content="The Firefox Marketplace is the official source of apps for the Web Platform.">
+    <link rel="icon" href="https://marketplace.cdn.mozilla.net/media/fireplace/img/logos/128.png?b=1391543187889" sizes="128x128">
+    <link rel="icon" href="https://marketplace.cdn.mozilla.net/media/fireplace/img/logos/64.png?b=1391543187889" sizes="64x64">
+    <link rel="icon" href="https://marketplace.cdn.mozilla.net/media/fireplace/img/logos/32.png?b=1391543187889" sizes="32x32">
+    <link rel="stylesheet" href="https://marketplace.cdn.mozilla.net/media/fireplace/css/splash.styl.css?b=1391543187889">    <link rel="stylesheet" href="https://marketplace.cdn.mozilla.net/media/fireplace/css/include.css?b=1391543187889">
+    <link title="Firefox Marketplace"
+          rel="search" type="application/opensearchdescription+xml"
+          href="/opensearch.xml">
+    <meta name="fragment" content="!">
+    <meta name="dns-prefetch" href="https://marketplace.cdn.mozilla.net">  </head>
+  <body class="home" data-languages="[&#34;ca&#34;, &#34;cs&#34;, &#34;de&#34;, &#34;el&#34;, &#34;en-US&#34;, &#34;es&#34;, &#34;fr&#34;, &#34;hr&#34;, &#34;hu&#34;, &#34;it&#34;, &#34;mk&#34;, &#34;nl&#34;, &#34;pl&#34;, &#34;pt-BR&#34;, &#34;ro&#34;, &#34;ru&#34;, &#34;sr&#34;, &#34;sr-Latn&#34;, &#34;sk&#34;, &#34;tr&#34;]" data-settings="{&#34;persona_unverified_issuer&#34;: &#34;login.persona.org&#34;}" data-build-id-js="f6b5e3f-52f14641" data-media="https://marketplace.cdn.mozilla.net/media/" data-repo="fireplace">
+
+    <noscript><p>Sorry, you need JavaScript to access the Marketplace.</p></noscript>
+    <div id="splash-overlay"><div class="throbber"></div></div>
+
+    <header id="site-header" class="header site-header"></header>
+    <aside id="incompatibility-banner"></aside>
+
+    <div class="cloak"></div>
+    <main>
+      <div id="cat-dropdown"></div>
+      <div id="cat-list"></div>
+      <div id="page" class="page" role="main"></div>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <!-- screenshot lightbox -->
+    <div id="lightbox">
+      <section>
+        <ul class="content"></ul>
+        <a class="close" href="#">&times;</a>
+      </section>
+    </div>
+
+    <script src="https://login.persona.org/include.js" defer></script>
+    <script type="text/javascript" src="https://marketplace.cdn.mozilla.net/media/fireplace/js/l10n.js?b=1391543187889"></script>
+    <script type="text/javascript" src="https://marketplace.cdn.mozilla.net/media/fireplace/js/include.js?b=1391543187889" defer></script>
+
+  </body>
+</html>
